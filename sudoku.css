@@ -12,10 +12,6 @@ table input {
     color: gray;
 }
 
-.bad {
-    background-color: red;
-}
-
 #cell30, #cell31, #cell32, #cell33, #cell34, #cell35, #cell36, #cell37, #cell38 {
     margin-left: 7px;
 }
