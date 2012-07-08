@@ -1,0 +1,130 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="sudoku.css">
+  <script type="text/javascript" src="../jquery-1.6.2.js"></script>
+  <script type="text/javascript" src="sudoku2.js"></script>
+</head>
+<body>
+  <div id="table-div">
+    <table id="board">
+      <tbody>
+        <tr>
+          <td><input id="cell00" size="1" maxlength="1"></td>
+          <td><input id="cell10" size="1" maxlength="1"></td>
+          <td><input id="cell20" size="1" maxlength="1"></td>
+          <td><input id="cell30" size="1" maxlength="1"></td>
+          <td><input id="cell40" size="1" maxlength="1"></td>
+          <td><input id="cell50" size="1" maxlength="1"></td>
+          <td><input id="cell60" size="1" maxlength="1"></td>
+          <td><input id="cell70" size="1" maxlength="1"></td>
+          <td><input id="cell80" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell01" size="1" maxlength="1"></td>
+          <td><input id="cell11" size="1" maxlength="1"></td>
+          <td><input id="cell21" size="1" maxlength="1"></td>
+          <td><input id="cell31" size="1" maxlength="1"></td>
+          <td><input id="cell41" size="1" maxlength="1"></td>
+          <td><input id="cell51" size="1" maxlength="1"></td>
+          <td><input id="cell61" size="1" maxlength="1"></td>
+          <td><input id="cell71" size="1" maxlength="1"></td>
+          <td><input id="cell81" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell02" size="1" maxlength="1"></td>
+          <td><input id="cell12" size="1" maxlength="1"></td>
+          <td><input id="cell22" size="1" maxlength="1"></td>
+          <td><input id="cell32" size="1" maxlength="1"></td>
+          <td><input id="cell42" size="1" maxlength="1"></td>
+          <td><input id="cell52" size="1" maxlength="1"></td>
+          <td><input id="cell62" size="1" maxlength="1"></td>
+          <td><input id="cell72" size="1" maxlength="1"></td>
+          <td><input id="cell82" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell03" size="1" maxlength="1"></td>
+          <td><input id="cell13" size="1" maxlength="1"></td>
+          <td><input id="cell23" size="1" maxlength="1"></td>
+          <td><input id="cell33" size="1" maxlength="1"></td>
+          <td><input id="cell43" size="1" maxlength="1"></td>
+          <td><input id="cell53" size="1" maxlength="1"></td>
+          <td><input id="cell63" size="1" maxlength="1"></td>
+          <td><input id="cell73" size="1" maxlength="1"></td>
+          <td><input id="cell83" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell04" size="1" maxlength="1"></td>
+          <td><input id="cell14" size="1" maxlength="1"></td>
+          <td><input id="cell24" size="1" maxlength="1"></td>
+          <td><input id="cell34" size="1" maxlength="1"></td>
+          <td><input id="cell44" size="1" maxlength="1"></td>
+          <td><input id="cell54" size="1" maxlength="1"></td>
+          <td><input id="cell64" size="1" maxlength="1"></td>
+          <td><input id="cell74" size="1" maxlength="1"></td>
+          <td><input id="cell84" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell05" size="1" maxlength="1"></td>
+          <td><input id="cell15" size="1" maxlength="1"></td>
+          <td><input id="cell25" size="1" maxlength="1"></td>
+          <td><input id="cell35" size="1" maxlength="1"></td>
+          <td><input id="cell45" size="1" maxlength="1"></td>
+          <td><input id="cell55" size="1" maxlength="1"></td>
+          <td><input id="cell65" size="1" maxlength="1"></td>
+          <td><input id="cell75" size="1" maxlength="1"></td>
+          <td><input id="cell85" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell06" size="1" maxlength="1"></td>
+          <td><input id="cell16" size="1" maxlength="1"></td>
+          <td><input id="cell26" size="1" maxlength="1"></td>
+          <td><input id="cell36" size="1" maxlength="1"></td>
+          <td><input id="cell46" size="1" maxlength="1"></td>
+          <td><input id="cell56" size="1" maxlength="1"></td>
+          <td><input id="cell66" size="1" maxlength="1"></td>
+          <td><input id="cell76" size="1" maxlength="1"></td>
+          <td><input id="cell86" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell07" size="1" maxlength="1"></td>
+          <td><input id="cell17" size="1" maxlength="1"></td>
+          <td><input id="cell27" size="1" maxlength="1"></td>
+          <td><input id="cell37" size="1" maxlength="1"></td>
+          <td><input id="cell47" size="1" maxlength="1"></td>
+          <td><input id="cell57" size="1" maxlength="1"></td>
+          <td><input id="cell67" size="1" maxlength="1"></td>
+          <td><input id="cell77" size="1" maxlength="1"></td>
+          <td><input id="cell87" size="1" maxlength="1"></td>
+        </tr>
+        <tr>
+          <td><input id="cell08" size="1" maxlength="1"></td>
+          <td><input id="cell18" size="1" maxlength="1"></td>
+          <td><input id="cell28" size="1" maxlength="1"></td>
+          <td><input id="cell38" size="1" maxlength="1"></td>
+          <td><input id="cell48" size="1" maxlength="1"></td>
+          <td><input id="cell58" size="1" maxlength="1"></td>
+          <td><input id="cell68" size="1" maxlength="1"></td>
+          <td><input id="cell78" size="1" maxlength="1"></td>
+          <td><input id="cell88" size="1" maxlength="1"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <button id="solve-button">Solve!</button>
+  <button id="reset-button" disabled>Reset!</button>
+  <button id="stop-button">Stop!</button>
+  <br>
+  <input id="random-strategy" name="strategy" type="radio" checked>
+  <label for="random-strategy">Solve randomly</label>
+  <br>
+  <input id="deterministic-strategy" name="strategy" type="radio">
+  <label for="deterministic-strategy">Solve deterministically</label>
+  <br>
+  Stack depth: <span id="stack-depth">0</span>
+  <br>
+  <input id="fast-speed" name="speed" type="radio" checked>
+  <label for="fast-speed">Fast speed</label>
+  <input id="slow-speed" name="speed" type="radio">
+  <label for="slow-speed">Slow speed</label>
+</body>
+</html>

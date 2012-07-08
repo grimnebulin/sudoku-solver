@@ -1,0 +1,37 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table input {
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.unspecified {
+    color: gray;
+}
+
+.bad {
+    background-color: red;
+}
+
+#cell30, #cell31, #cell32, #cell33, #cell34, #cell35, #cell36, #cell37, #cell38 {
+    margin-left: 7px;
+}
+
+#cell50, #cell51, #cell52, #cell55, #cell54, #cell55, #cell56, #cell57, #cell58 {
+    margin-right: 7px;
+}
+
+#cell03, #cell13, #cell23, #cell33, #cell43, #cell53, #cell63, #cell73, #cell83 {
+    margin-top: 7px;
+}
+
+#cell05, #cell15, #cell25, #cell35, #cell45, #cell55, #cell65, #cell75, #cell85 {
+    margin-bottom: 7px;
+}
+
+#stack-depth {
+    font-family: fixed;
+}
